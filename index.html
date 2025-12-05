@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <title>MELY JEWELRY - Bootstrap 5 Fashion Store HTML CSS Template</title>
+    <title>MELY</title>
     <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <meta name="format-detection" content="telephone=no" />
@@ -32,6 +33,30 @@
       href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Marcellus&display=swap"
       rel="stylesheet"
     />
+    <style>
+      /* Instagram fotoğraflarını eşitleme kısmı */
+.instagram .insta-image {
+  width: 100%;
+  height: 220px;      
+  object-fit: cover;  /* kırparak sığdırıyoruz*/
+  display: block;
+}
+/* Hero/Slider'daki  resmler aynı boy yapıyoruz*/
+.hero-img {
+  width: 100%;
+  height: 420px;     
+  object-fit: cover; /* kırparak sığdırıyoruz yine*/
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .hero-img {
+    height: 320px;
+  }
+}
+
+
+    </style>
   </head>
 
   <body class="homepage">
@@ -419,46 +444,34 @@
           aria-label="Close"
         ></button>
       </div>
-      <div class="offcanvas-body">
-        <div class="order-md-last">
-          <h4 class="d-flex justify-content-between align-items-center mb-3">
-            <span class="text-primary">Your cart</span>
-            <span class="badge bg-primary rounded-pill">3</span>
-          </h4>
-          <ul class="list-group mb-3">
-            <li class="list-group-item d-flex justify-content-between lh-sm">
-              <div>
-                <h6 class="my-0">Growers cider</h6>
-                <small class="text-body-secondary">Brief description</small>
-              </div>
-              <span class="text-body-secondary">$12</span>
-            </li>
-            <li class="list-group-item d-flex justify-content-between lh-sm">
-              <div>
-                <h6 class="my-0">Fresh grapes</h6>
-                <small class="text-body-secondary">Brief description</small>
-              </div>
-              <span class="text-body-secondary">$8</span>
-            </li>
-            <li class="list-group-item d-flex justify-content-between lh-sm">
-              <div>
-                <h6 class="my-0">Heinz tomato ketchup</h6>
-                <small class="text-body-secondary">Brief description</small>
-              </div>
-              <span class="text-body-secondary">$5</span>
-            </li>
-            <li class="list-group-item d-flex justify-content-between">
-              <span>Total (USD)</span>
-              <strong>$20</strong>
-            </li>
-          </ul>
+       <div class="offcanvas-body">
+      <div class="order-md-last">
+        <h4 class="d-flex justify-content-between align-items-center mb-3">
+          <span class="text-primary">Sepetiniz</span>
+          <span class="badge bg-primary rounded-pill">2</span>
+        </h4>
+        <ul class="list-group mb-3">
+          <li class="list-group-item d-flex justify-content-between lh-sm">
+            <div>
+              <h6 class="my-0">Pırlanta Yüzük</h6>
+              <small class="text-body-secondary">Özel Seri</small>
+            </div>
+            <span class="text-body-secondary">120.000TL</span>
+          </li>
+          <li class="list-group-item d-flex justify-content-between lh-sm">
+            <div>
+              <h6 class="my-0">Altın Saat</h6>
+              <small class="text-body-secondary">22 Ayar</small>
+            </div>
+            <span class="text-body-secondary">80.000TL</span>
+          </li>
 
           <button class="w-100 btn btn-primary btn-lg" type="submit">
-            Continue to Checkout
+            Ödeme Yap
           </button>
-        </div>
       </div>
     </div>
+  </div>
 <nav class="navbar navbar-expand-lg bg-light text-uppercase fs-6 p-3 border-bottom align-items-center">
     <div class="container-fluid">
       <div class="row justify-content-between align-items-center w-100">
@@ -520,6 +533,10 @@
                 data-bs-target="#offcanvasCart" aria-controls="offcanvasCart">Sepetiniz <span class="cart-count">(2)</span>
               </a>
             </li>
+            <li class="d-none d-lg-block">
+              <a href="/Mucevher_Satis_Sitesi/admin/html/index.html" class="text-uppercase mx-3">Admin Paneli <span class="cart-count"></span>
+              </a>
+            </li>
             <li class="d-lg-none">
               <a href="#" class="mx-2">
                 <svg width="24" height="24" viewBox="0 0 24 24">
@@ -578,7 +595,8 @@
                   <div class="image-holder">
                     <a href="#">
                       <img
-                        src="images/banner-image-6.jpg"
+                        src="images/YKolye.jpg"
+                        class="img-fluid hero-img"
                         alt="product"
                         class="img-fluid"
                       />
@@ -609,7 +627,8 @@
                   <div class="image-holder">
                     <a href="#">
                       <img
-                        src="images/banner-image-1.jpg"
+                        src="images/KlapliBileklik.jpg"
+                         class="img-fluid hero-img"
                         alt="product"
                         class="img-fluid"
                       />
@@ -637,7 +656,8 @@
                   <div class="image-holder">
                     <a href="#">
                       <img
-                        src="images/banner-image-2.jpg"
+                        src="images/DüğmeKüpe.jpg"
+                         class="img-fluid hero-img"
                         alt="product"
                         class="img-fluid"
                       />
@@ -665,7 +685,8 @@
                   <div class="image-holder">
                     <a href="#">
                       <img
-                        src="images/banner-image-3.jpg"
+                        src="images/inciGerdanlık.jpg"
+                        class="img-fluid hero-img"
                         alt="product"
                         class="img-fluid"
                       />
@@ -693,7 +714,8 @@
                   <div class="image-holder">
                     <a href="#">
                       <img
-                        src="images/banner-image-4.jpg"
+                        src="images/İnciBileklik.jpg"
+                        class="img-fluid hero-img"
                         alt="product"
                         class="img-fluid"
                       />
@@ -721,7 +743,8 @@
                   <div class="image-holder">
                     <a href="#">
                       <img
-                        src="images/banner-image-5.jpg"
+                        src="images/inciKüpe.jpg"
+                        class="img-fluid hero-img"
                         alt="product"
                         class="img-fluid"
                       />
@@ -931,7 +954,7 @@
                     <a
                       href="#"
                       class="text-decoration-none"
-                      data-after="Add to cart"
+                      data-after="Sepete Ekle"
                       ><span>75.630 TL</span></a
                     >
                   </div>
@@ -960,7 +983,7 @@
                     <a
                       href="#"
                       class="text-decoration-none"
-                      data-after="Add to cart"
+                      data-after="Sepete Ekle"
                       ><span>248.395 TL</span></a
                     >
                   </div>
@@ -991,7 +1014,7 @@
                     <a
                       href="#"
                       class="text-decoration-none"
-                      data-after="Add to cart"
+                      data-after="Sepete Ekle"
                       ><span>94.385 TL</span></a
                     >
                   </div>
@@ -1020,7 +1043,7 @@
                     <a
                       href="#"
                       class="text-decoration-none"
-                      data-after="Add to cart"
+                      data-after="Sepete Ekle"
                       ><span>105.765 TL</span></a
                     >
                   </div>
@@ -1051,7 +1074,7 @@
                     <a
                       href="#"
                       class="text-decoration-none"
-                      data-after="Add to cart"
+                      data-after="Sepete Ekle"
                       ><span>95.740 TL</span></a
                     >
                   </div>
@@ -1144,7 +1167,7 @@
                     <a
                       href="index.html"
                       class="text-decoration-none"
-                      data-after="Add to cart"
+                      data-after="Sepete Ekle"
                       ><span>105.765 TL</span></a
                     >
                   </div>
@@ -1175,7 +1198,7 @@
                     <a
                       href="index.html"
                       class="text-decoration-none"
-                      data-after="Add to cart"
+                      data-after="Sepete Ekle"
                       ><span>94.385 TL</span></a
                     >
                   </div>
@@ -1204,7 +1227,7 @@
                     <a
                       href="index.html"
                       class="text-decoration-none"
-                      data-after="Add to cart"
+                      data-after="Sepete Ekle"
                       ><span>23.840 TL</span></a
                     >
                   </div>
@@ -1233,7 +1256,7 @@
                     <a
                       href="index.html"
                       class="text-decoration-none"
-                      data-after="Add to cart"
+                      data-after="Sepete Ekle"
                       ><span>16.835 TL</span></a
                     >
                   </div>
@@ -1262,7 +1285,7 @@
                     <a
                       href="index.html"
                       class="text-decoration-none"
-                      data-after="Add to cart"
+                      data-after="Sepete Ekle"
                       ><span>40.400 TL</span></a
                     >
                   </div>
@@ -1293,7 +1316,7 @@
                     <a
                       href="index.html"
                       class="text-decoration-none"
-                      data-after="Add to cart"
+                      data-after="Sepete Ekle"
                       ><span>95.740</span></a
                     >
                   </div>
@@ -1412,7 +1435,7 @@
                     <a
                       href="index.html"
                       class="text-decoration-none"
-                      data-after="Add to cart"
+                      data-after="Sepete Ekle"
                       ><span>23.840 TL</span></a
                     >
                   </div>
@@ -1441,7 +1464,7 @@
                     <a
                       href="index.html"
                       class="text-decoration-none"
-                      data-after="Add to cart"
+                      data-after="Sepete Ekle"
                       ><span>16.835 TL</span></a
                     >
                   </div>
@@ -1472,7 +1495,7 @@
                     <a
                       href="index.html"
                       class="text-decoration-none"
-                      data-after="Add to cart"
+                      data-after="Sepete Ekle"
                       ><span>47.795 TL</span></a
                     >
                   </div>
@@ -1501,7 +1524,7 @@
                     <a
                       href="index.html"
                       class="text-decoration-none"
-                      data-after="Add to cart"
+                      data-after="Sepete Ekle"
                       ><span>6.455 TL</span></a
                     >
                   </div>
@@ -1530,7 +1553,7 @@
                     <a
                       href="index.html"
                       class="text-decoration-none"
-                      data-after="Add to cart"
+                      data-after="Sepete Ekle"
                       ><span>75.630 TL</span></a
                     >
                   </div>
@@ -1858,13 +1881,13 @@
                   <a href="index.html" class="item-anchor">Ana Sayfa</a>
                 </li>
                 <li class="menu-item">
-                  <a href="index.html" class="item-anchor">Hakkımızda</a>
+                  <a href="hakkimizda.html" class="item-anchor">Hakkımızda</a>
                 </li>
                 <li class="menu-item">
-                  <a href="blog.html" class="item-anchor">Misyonumuz</a>
+                  <a href="misyon.html" class="item-anchor">Misyonumuz</a>
                 </li>
                 <li class="menu-item">
-                  <a href="#" class="item-anchor">İletişim</a>
+                  <a href="iletisim.html" class="item-anchor">İletişim</a>
                 </li>
               </ul>
             </div>

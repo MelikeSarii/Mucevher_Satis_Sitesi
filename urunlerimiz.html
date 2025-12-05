@@ -4,6 +4,7 @@
 <head>
   <title>MELY JEWELRY - Bootstrap 5 Fashion Store HTML CSS Template</title>
   <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="format-detection" content="telephone=no" />
@@ -22,6 +23,14 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Marcellus&display=swap"
     rel="stylesheet" />
+    <style>
+.instagram .insta-image {
+  width: 100%;
+  height: 220px;      
+  object-fit: cover;  
+  display: block;
+}
+</style>
 </head>
 
 <body class="homepage">
@@ -252,14 +261,15 @@
             <div class="offcanvas-body">
               <ul class="navbar-nav justify-content-end flex-grow-1 gap-1 gap-md-5 pe-3">
                 <li class="nav-item dropdown">
-                  <a class="nav-link dropdown-toggle active" href="#" id="dropdownHome" data-bs-toggle="dropdown"
-                    aria-haspopup="true" aria-expanded="false">Home</a>
+                  <a class="nav-link dropdown-toggle active" href="index.html" id="dropdownHome" data-bs-toggle="dropdown"
+                    aria-haspopup="true" aria-expanded="false">Anasayfa</a>
                   <ul class="dropdown-menu list-unstyled" aria-labelledby="dropdownHome">
                     <li>
-                      <a href="index.html" class="dropdown-item item-anchor">Ürünlerimiz</a>
+                      <a href="urunlerimiz.html" class="dropdown-item item-anchor">Ürünlerimiz</a>
+                      
                     </li>
                     <li>
-                      <a href="index.html" class="dropdown-item item-anchor">Birimlerimiz
+                      <a href="birimlerimiz.html" class="dropdown-item item-anchor">Birimlerimiz
                       </a>
                     </li>
                   </ul>
@@ -283,8 +293,11 @@
           <ul class="list-unstyled d-flex m-0">
             <li class="d-none d-lg-block">
               <a href="index.html" class="text-uppercase mx-3" data-bs-toggle="offcanvas"
-                data-bs-target="#offcanvasCart" aria-controls="offcanvasCart">Sepetiniz <span
-                  class="cart-count">(2)</span>
+                data-bs-target="#offcanvasCart" aria-controls="offcanvasCart">Sepetiniz <span class="cart-count">(2)</span>
+              </a>
+            </li>
+            <li class="d-none d-lg-block">
+              <a href="/Mucevher_Satis_Sitesi/admin/html/index.html" class="text-uppercase mx-3">Admin Paneli <span class="cart-count"></span>
               </a>
             </li>
             <li class="d-lg-none">
@@ -322,11 +335,11 @@
         <!-- Ürün A -->
         <div class="col-6 col-md-3">
           <div class="card product-card h-100 border-0 shadow-sm">
-            <img src="images/banner-image-1.jpg" class="card-img-top" alt="Pırlanta Bileklik">
+            <img src="images/pırlantaBileklik.jpg" class="card-img-top" alt="Pırlanta Bileklik">
             <div class="card-body text-center">
               <h5 class="card-title fs-6 mb-1">Pırlanta Bileklik</h5>
               <p class="card-text small text-muted mb-2">Zarif tek sıra tasarım</p>
-              <span class="fw-semibold d-block mb-3">₺9.250</span>
+              <span class="fw-semibold d-block mb-3">36.290₺</span>
               <a href="#" class="btn btn-sm btn-outline-dark">İncele</a>
             </div>
           </div>
@@ -335,11 +348,11 @@
         <!-- Ürün B -->
         <div class="col-6 col-md-3">
           <div class="card product-card h-100 border-0 shadow-sm">
-            <img src="images/banner-image-2.jpg" class="card-img-top" alt="Pırlanta Küpe">
+            <img src="images/pırlantaKüpe.jpg" class="card-img-top" alt="Pırlanta Küpe">
             <div class="card-body text-center">
               <h5 class="card-title fs-6 mb-1">Pırlanta Küpe</h5>
               <p class="card-text small text-muted mb-2">Günlük şıklık</p>
-              <span class="fw-semibold d-block mb-3">₺6.750</span>
+              <span class="fw-semibold d-block mb-3">45.330₺</span>
               <a href="#" class="btn btn-sm btn-outline-dark">İncele</a>
             </div>
           </div>
@@ -348,11 +361,11 @@
         <!-- Ürün C -->
         <div class="col-6 col-md-3">
           <div class="card product-card h-100 border-0 shadow-sm">
-            <img src="images/banner-image-3.jpg" class="card-img-top" alt="Taşlı Kolye">
+            <img src="images/ışıltılıKolye.jpg" class="card-img-top" alt="Taşlı Kolye">
             <div class="card-body text-center">
               <h5 class="card-title fs-6 mb-1">Işıltılı Kolye</h5>
               <p class="card-text small text-muted mb-2">Özel gün tasarımı</p>
-              <span class="fw-semibold d-block mb-3">₺11.300</span>
+              <span class="fw-semibold d-block mb-3">44.650₺</span>
               <a href="#" class="btn btn-sm btn-outline-dark">İncele</a>
             </div>
           </div>
@@ -361,11 +374,11 @@
         <!-- Ürün D -->
         <div class="col-6 col-md-3">
           <div class="card product-card h-100 border-0 shadow-sm">
-            <img src="images/banner-image-4.jpg" class="card-img-top" alt="Zincir Bileklik">
+            <img src="images/zincirBileklik.jpg" class="card-img-top" alt="Zincir Bileklik">
             <div class="card-body text-center">
-              <h5 class="card-title fs-6 mb-1">Zincir Bileklik</h5>
+              <h5 class="card-title fs-6 mb-1">Sarı Altın Zincir Bileklik</h5>
               <p class="card-text small text-muted mb-2">Minimal detaylar</p>
-              <span class="fw-semibold d-block mb-3">₺4.950</span>
+              <span class="fw-semibold d-block mb-3">28.560₺</span>
               <a href="#" class="btn btn-sm btn-outline-dark">İncele</a>
             </div>
           </div>
@@ -374,11 +387,11 @@
         <!-- Ürün E -->
         <div class="col-6 col-md-3">
           <div class="card product-card h-100 border-0 shadow-sm">
-            <img src="images/banner-image-5.jpg" class="card-img-top" alt="Taşlı Halka Küpe">
+            <img src="images/taşlıhalkaküpe.jpg" class="card-img-top" alt="Taşlı Halka Küpe">
             <div class="card-body text-center">
-              <h5 class="card-title fs-6 mb-1">Taşlı Halka Küpe</h5>
+              <h5 class="card-title fs-6 mb-1">Sarı Altın Taşlı Halka Küpe</h5>
               <p class="card-text small text-muted mb-2">Klasik & modern</p>
-              <span class="fw-semibold d-block mb-3">₺7.600</span>
+              <span class="fw-semibold d-block mb-3">30.185₺</span>
               <a href="#" class="btn btn-sm btn-outline-dark">İncele</a>
             </div>
           </div>
@@ -387,33 +400,33 @@
         <!-- Ürün F -->
         <div class="col-6 col-md-3">
           <div class="card product-card h-100 border-0 shadow-sm">
-            <img src="images/banner-image-6.jpg" class="card-img-top" alt="Taşlı Set">
+            <img src="images/keşfiKolye.jpg" class="card-img-top" alt="Taşlı Set">
             <div class="card-body text-center">
-              <h5 class="card-title fs-6 mb-1">Taşlı Set</h5>
-              <p class="card-text small text-muted mb-2">Kolye & Bileklik</p>
-              <span class="fw-semibold d-block mb-3">₺12.800</span>
+              <h5 class="card-title fs-6 mb-1">KEŞF-İ İSTANBUL Koleksiyonu Sarı Altın Kolye</h5>
+              <p class="card-text small text-muted mb-2">Topkapı Sarayı Saat Koleksiyonundan ilham alınmıştır.</p>
+              <span class="fw-semibold d-block mb-3">175.220₺</span>
               <a href="#" class="btn btn-sm btn-outline-dark">İncele</a>
             </div>
           </div>
         </div>
         <div class="col-6 col-md-3">
           <div class="card product-card h-100 border-0 shadow-sm">
-            <img src="images/banner-image-6.jpg" class="card-img-top" alt="Taşlı Set">
+            <img src="images/keşfibizlezik.jpg" class="card-img-top" alt="Taşlı Set">
             <div class="card-body text-center">
-              <h5 class="card-title fs-6 mb-1">Taşlı Set</h5>
-              <p class="card-text small text-muted mb-2">Kolye & Bileklik</p>
-              <span class="fw-semibold d-block mb-3">₺12.800</span>
+              <h5 class="card-title fs-6 mb-1">KEŞF-İ İstanbul Koleksiyonu Sarı Altın Bilezik</h5>
+              <p class="card-text small text-muted mb-2">Topkapı Sarayı Saat Koleksiyonundan ilham alınmıştır.</p>
+              <span class="fw-semibold d-block mb-3">237.425₺</span>
               <a href="#" class="btn btn-sm btn-outline-dark">İncele</a>
             </div>
           </div>
         </div>
         <div class="col-6 col-md-3">
           <div class="card product-card h-100 border-0 shadow-sm">
-            <img src="images/banner-image-6.jpg" class="card-img-top" alt="Taşlı Set">
+            <img src="images/keşgiyüzük.jpg" class="card-img-top" alt="Taşlı Set">
             <div class="card-body text-center">
-              <h5 class="card-title fs-6 mb-1">Taşlı Set</h5>
-              <p class="card-text small text-muted mb-2">Kolye & Bileklik</p>
-              <span class="fw-semibold d-block mb-3">₺12.800</span>
+              <h5 class="card-title fs-6 mb-1">KEŞF-İ İstanbul Koleksiyonu Sarı Altın Yüzük</h5>
+              <p class="card-text small text-muted mb-2">Topkapı Sarayı Saat Koleksiyonundan ilham alınmıştır.</p>
+              <span class="fw-semibold d-block mb-3">51.405₺</span>
               <a href="#" class="btn btn-sm btn-outline-dark">İncele</a>
             </div>
           </div>
@@ -429,7 +442,7 @@
             <div class="card-body text-center">
               <h5 class="card-title fs-6 mb-1">Zarif Gümüş Set</h5>
               <p class="card-text small text-muted mb-2">Kolye & Küpe</p>
-              <span class="fw-semibold d-block mb-3">₺4.250</span>
+              <span class="fw-semibold d-block mb-3">140.570₺</span>
               <a href="#" class="btn btn-sm btn-outline-dark">İncele</a>
             </div>
           </div>
@@ -442,7 +455,7 @@
             <div class="card-body text-center">
               <h5 class="card-title fs-6 mb-1">Altın Şıklık Seti</h5>
               <p class="card-text small text-muted mb-2">Kolye & Bileklik</p>
-              <span class="fw-semibold d-block mb-3">₺6.900</span>
+              <span class="fw-semibold d-block mb-3">129.000₺</span>
               <a href="#" class="btn btn-sm btn-outline-dark">İncele</a>
             </div>
           </div>
@@ -455,7 +468,7 @@
             <div class="card-body text-center">
               <h5 class="card-title fs-6 mb-1">Mavi Taşlı Set</h5>
               <p class="card-text small text-muted mb-2">Kolye & Küpe & Yüzük</p>
-              <span class="fw-semibold d-block mb-3">₺7.450</span>
+              <span class="fw-semibold d-block mb-3">174.450₺</span>
               <a href="#" class="btn btn-sm btn-outline-dark">İncele</a>
             </div>
           </div>
@@ -468,7 +481,7 @@
             <div class="card-body text-center">
               <h5 class="card-title fs-6 mb-1">Minimal Altın Set</h5>
               <p class="card-text small text-muted mb-2">Zincir & Küpe</p>
-              <span class="fw-semibold d-block mb-3">₺5.300</span>
+              <span class="fw-semibold d-block mb-3">115.300₺</span>
               <a href="#" class="btn btn-sm btn-outline-dark">İncele</a>
             </div>
           </div>
@@ -481,7 +494,7 @@
             <div class="card-body text-center">
               <h5 class="card-title fs-6 mb-1">Altın Halka Küpe</h5>
               <p class="card-text small text-muted mb-2">Klasik Tasarım</p>
-              <span class="fw-semibold d-block mb-3">₺3.150</span>
+              <span class="fw-semibold d-block mb-3">13.150₺</span>
               <a href="#" class="btn btn-sm btn-outline-dark">İncele</a>
             </div>
           </div>
@@ -494,7 +507,7 @@
             <div class="card-body text-center">
               <h5 class="card-title fs-6 mb-1">Örgü Tasarım Yüzük</h5>
               <p class="card-text small text-muted mb-2">Altın Yüzük</p>
-              <span class="fw-semibold d-block mb-3">₺2.800</span>
+              <span class="fw-semibold d-block mb-3">12.800₺</span>
               <a href="#" class="btn btn-sm btn-outline-dark">İncele</a>
             </div>
           </div>
@@ -505,9 +518,9 @@
           <div class="card product-card h-100 border-0 shadow-sm">
             <img src="images/product-item-7.jpg" class="card-img-top" alt="İnce kolye">
             <div class="card-body text-center">
-              <h5 class="card-title fs-6 mb-1">Zarif Kolye</h5>
+              <h5 class="card-title fs-6 mb-1">Tasarım Tesbih</h5>
               <p class="card-text small text-muted mb-2">Minimal Tasarım</p>
-              <span class="fw-semibold d-block mb-3">₺2.350</span>
+              <span class="fw-semibold d-block mb-3">22.350₺</span>
               <a href="#" class="btn btn-sm btn-outline-dark">İncele</a>
             </div>
           </div>
@@ -520,7 +533,7 @@
             <div class="card-body text-center">
               <h5 class="card-title fs-6 mb-1">Gökkuşağı Yüzük</h5>
               <p class="card-text small text-muted mb-2">Renkli Taşlı</p>
-              <span class="fw-semibold d-block mb-3">₺3.600</span>
+              <span class="fw-semibold d-block mb-3">3.600₺</span>
               <a href="#" class="btn btn-sm btn-outline-dark">İncele</a>
             </div>
           </div>
@@ -632,25 +645,27 @@
             </div>
           </div>
         </div>
-        <div class="col-md-3 col-sm-6">
-          <div class="footer-menu footer-menu-002">
-            <h5 class="widget-title text-uppercase mb-4">Hızlı Linkler</h5>
-            <ul class="menu-list list-unstyled text-uppercase border-animation-left fs-6">
-              <li class="menu-item">
-                <a href="index.html" class="item-anchor">Ana Sayfa</a>
-              </li>
-              <li class="menu-item">
-                <a href="index.html" class="item-anchor">Hakkımızda</a>
-              </li>
-              <li class="menu-item">
-                <a href="blog.html" class="item-anchor">Misyonumuz</a>
-              </li>
-              <li class="menu-item">
-                <a href="#" class="item-anchor">İletişim</a>
-              </li>
-            </ul>
+         <div class="col-md-3 col-sm-6">
+            <div class="footer-menu footer-menu-002">
+              <h5 class="widget-title text-uppercase mb-4">Hızlı Linkler</h5>
+              <ul
+                class="menu-list list-unstyled text-uppercase border-animation-left fs-6"
+              >
+                <li class="menu-item">
+                  <a href="index.html" class="item-anchor">Ana Sayfa</a>
+                </li>
+                <li class="menu-item">
+                  <a href="hakkimizda.html" class="item-anchor">Hakkımızda</a>
+                </li>
+                <li class="menu-item">
+                  <a href="misyon.html" class="item-anchor">Misyonumuz</a>
+                </li>
+                <li class="menu-item">
+                  <a href="iletisim.html" class="item-anchor">İletişim</a>
+                </li>
+              </ul>
+            </div>
           </div>
-        </div>
         <div class="col-md-3 col-sm-6">
           <div class="footer-menu footer-menu-003">
             <h5 class="widget-title text-uppercase mb-4">

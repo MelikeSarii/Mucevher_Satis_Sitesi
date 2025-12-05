@@ -4,6 +4,8 @@
 <head>
   <title>MELY JEWELRY - Bootstrap 5 Fashion Store HTML CSS Template</title>
   <meta charset="utf-8" />
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
   <meta http-equiv="X-UA-Compatible" content="IE=edge" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <meta name="format-detection" content="telephone=no" />
@@ -22,6 +24,16 @@
   <link
     href="https://fonts.googleapis.com/css2?family=Jost:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&family=Marcellus&display=swap"
     rel="stylesheet" />
+    <style>
+      
+.instagram .insta-image {
+  width: 100%;
+  height: 220px;      
+  object-fit: cover;  
+  display: block;
+}
+
+    </style>
 </head>
 
 <body class="homepage">
@@ -226,7 +238,7 @@
     </div>
   </div>
 
-  <nav class="navbar navbar-expand-lg bg-light text-uppercase fs-6 p-3 border-bottom align-items-center">
+ <nav class="navbar navbar-expand-lg bg-light text-uppercase fs-6 p-3 border-bottom align-items-center">
     <div class="container-fluid">
       <div class="row justify-content-between align-items-center w-100">
         <div class="col-auto">
@@ -256,10 +268,11 @@
                     aria-haspopup="true" aria-expanded="false">Anasayfa</a>
                   <ul class="dropdown-menu list-unstyled" aria-labelledby="dropdownHome">
                     <li>
-                      <a href="index.html" class="dropdown-item item-anchor">Ürünlerimiz</a>
+                      <a href="urunlerimiz.html" class="dropdown-item item-anchor">Ürünlerimiz</a>
+                      
                     </li>
                     <li>
-                      <a href="index.html" class="dropdown-item item-anchor">Birimlerimiz
+                      <a href="birimlerimiz.html" class="dropdown-item item-anchor">Birimlerimiz
                       </a>
                     </li>
                   </ul>
@@ -284,6 +297,10 @@
             <li class="d-none d-lg-block">
               <a href="index.html" class="text-uppercase mx-3" data-bs-toggle="offcanvas"
                 data-bs-target="#offcanvasCart" aria-controls="offcanvasCart">Sepetiniz <span class="cart-count">(2)</span>
+              </a>
+            </li>
+            <li class="d-none d-lg-block">
+              <a href="/Mucevher_Satis_Sitesi/admin/html/index.html" class="text-uppercase mx-3">Admin Paneli <span class="cart-count"></span>
               </a>
             </li>
             <li class="d-lg-none">
@@ -368,7 +385,7 @@
 
   <section class="instagram position-relative">
     <div class="d-flex justify-content-center w-100 position-absolute bottom-0 z-1">
-      <a href="#" class="btn btn-dark px-5">Follow us on Instagram</a>
+      <a href="#" class="btn btn-dark px-5">Bizi Instagramda Takip Edin</a>
     </div>
     <div class="row g-0">
       <div class="col-6 col-sm-4 col-md-2">
@@ -467,25 +484,27 @@
             </div>
           </div>
         </div>
-        <div class="col-md-3 col-sm-6">
-          <div class="footer-menu footer-menu-002">
-            <h5 class="widget-title text-uppercase mb-4">Hızlı Linkler</h5>
-            <ul class="menu-list list-unstyled text-uppercase border-animation-left fs-6">
-              <li class="menu-item">
-                <a href="index.html" class="item-anchor">Ana Sayfa</a>
-              </li>
-              <li class="menu-item">
-                <a href="index.html" class="item-anchor">Hakkımızda</a>
-              </li>
-              <li class="menu-item">
-                <a href="blog.html" class="item-anchor">Misyonumuz</a>
-              </li>
-              <li class="menu-item">
-                <a href="#" class="item-anchor">İletişim</a>
-              </li>
-            </ul>
+         <div class="col-md-3 col-sm-6">
+            <div class="footer-menu footer-menu-002">
+              <h5 class="widget-title text-uppercase mb-4">Hızlı Linkler</h5>
+              <ul
+                class="menu-list list-unstyled text-uppercase border-animation-left fs-6"
+              >
+                <li class="menu-item">
+                  <a href="index.html" class="item-anchor">Ana Sayfa</a>
+                </li>
+                <li class="menu-item">
+                  <a href="hakkimizda.html" class="item-anchor">Hakkımızda</a>
+                </li>
+                <li class="menu-item">
+                  <a href="misyon.html" class="item-anchor">Misyonumuz</a>
+                </li>
+                <li class="menu-item">
+                  <a href="iletisim.html" class="item-anchor">İletişim</a>
+                </li>
+              </ul>
+            </div>
           </div>
-        </div>
         <div class="col-md-3 col-sm-6">
           <div class="footer-menu footer-menu-003">
             <h5 class="widget-title text-uppercase mb-4">
