@@ -65,7 +65,6 @@ Bu proje kapsamında, hazır bir HTML/CSS şablonu kullanılarak **mücevher sat
 
 ##  Proje Yapısı (Genel)
 
-> Not: Aşağıdaki yapı örnek olup, kendi klasör yapına göre güncelleyebilirsin.
 
 ```text
 proje-kök-dizini/
@@ -86,25 +85,6 @@ proje-kök-dizini/
 │  ├─ img/
 │  └─ video/
 └─ README.md
- Kurulum ve Çalıştırma
-Bu projeyi GitHub’dan clone veya download et:
-
-bash
-Kodu kopyala
-git clone https://github.com/KULLANICI_ADIN/Mucevher_Satis_Sitesi.git
-Proje klasörünü aç.
-
-index.html dosyasını tarayıcı ile açarak ön yüzü görüntüleyebilirsin.
-
-admin/index.html dosyasını açarak yönetim panelini görüntüleyebilirsin.
-
-GitHub Pages üzerinden yayınlamak için:
-
-Repo ayarlarından Pages sekmesine git.
-
-“Deploy from a branch” → main branch + /root klasörünü seç.
-
-Kaydet ve yayınlanan URL’yi kullan.
 
  Karşılaşılan Zorluklar & Çözümler
 CSS override ve stil çakışmaları:
@@ -161,7 +141,6 @@ Kaynaklar
 
 
 markdown
-Kodu kopyala
 # MELY – Mücevher E-Ticaret Sitesi ve Yönetim Paneli
 
 Bu proje kapsamında, hazır bir HTML/CSS şablonu kullanılarak **mücevher satışına yönelik bir web sitesi** ve bu siteyi yönetmek için bir **yönetim (admin) paneli** oluşturulmuştur. Başlangıçta fashion/e-ticaret için tasarlanmış tema, mücevher mağazası senaryosuna uyarlanmış; metinler, görseller, menüler ve kart yapıları projeye uygun şekilde düzenlenmiştir.
@@ -252,7 +231,6 @@ proje-kök-dizini/
 Bu projeyi GitHub’dan clone veya download et:
 
 bash
-Kodu kopyala
 git clone https://github.com/KULLANICI_ADIN/Mucevher_Satis_Sitesi.git
 Proje klasörünü aç.
 
