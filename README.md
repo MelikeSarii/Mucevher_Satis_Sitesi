@@ -146,7 +146,7 @@ Melike Sarı – 231307102
 
 Bu proje, hazır HTML/CSS temalarının gerçek bir senaryoya (mücevher e-ticareti) göre nasıl özelleştirilebileceğini göstermek amacıyla hazırlanmıştır.
 
-Kodu kopyala
+
 
 Kaynaklar
 
@@ -158,37 +158,7 @@ Kaynaklar
 
 
 
-Şunu dedin:
- Kurulum ve Çalıştırma
 
-burdan itibaren olan kısmı da koyayaım mı sadece üstteki kısmı mı koayayım
-
-
-ChatGPT:
-README dosyası için sadece üstteki kısmı koyman yeterli — yani benim sana verdiğim tüm içerik zaten tam bir README.
-
-Ekstra bir şey eklemene gerek yok.
-"Buradan itibaren" dediğin kısım ( Kurulum ve Çalıştırma, Zorluklar, Geliştirmeler, vb.) README’nin doğal parçasıdır, o yüzden tamamını aynen kopyalayıp README.md içine yapıştırmalısın.
-
-Yani net cevap:
- Tüm verdiğim metni olduğu gibi README.md dosyana ekle.
- Sadece üst tarafı ekleme — aşağıdaki bölümler de README’nin önemli parçaları.
-
-İstersen sana temizlenmiş, doğrudan GitHub’a yapıştırmalık halini tekrar tek parça verebilirim.
-
-
-
-
-
-
-
-Şunu dedin:
-olur
-
-
-ChatGPT:
-Tamam! Aşağıdaki metni OLDUĞU GİBİ kopyalayıp GitHub’daki README.md dosyana yapıştırabilirsin.
-Hiçbir şey silme, değiştirmene gerek yok. Bu hazır ve profesyonel bir README’dir.
 
 markdown
 Kodu kopyala
